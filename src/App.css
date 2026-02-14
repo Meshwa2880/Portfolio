@@ -1,0 +1,14 @@
+.footer {
+  padding: 1.5rem;
+  border-top: 1px solid var(--border);
+  background: var(--bg-elevated);
+}
+
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--muted);
+}

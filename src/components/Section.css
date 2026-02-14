@@ -1,0 +1,56 @@
+.section {
+  padding: 5rem 1.5rem;
+}
+
+.section:not(#hero) {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.section:not(#hero).in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.section-alt {
+  background: var(--bg-elevated);
+}
+
+.section-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.section-inner--full {
+  max-width: none;
+  width: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.section-title {
+  font-size: clamp(2rem, 4.5vw, 2.75rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  margin: 0 0 0.75rem;
+  color: var(--text);
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--muted);
+  margin: 0 auto;
+  max-width: 44ch;
+  line-height: 1.6;
+}
+
+.section.section-centered .section-subtitle {
+  text-align: center;
+}
