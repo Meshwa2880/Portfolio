@@ -99,7 +99,7 @@ export const experience = [
   },
   {
     company: 'Praxware Technologies',
-    location: 'Toronto, ON',
+    location: 'Ahemdabad, IND',
     tech: ['Java EE', 'JSP', 'Servlets', 'JPA', 'JAX-RS', 'JUnit'],
     roles: [
       {
